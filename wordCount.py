@@ -1,10 +1,9 @@
 # n top words from string
-sentence = "Hello, this is Andre DeTienne, this is Lakshmi, and this is DongInn Kim. Nice to see you. I hope that you enjoy our interview questions."
+sentence = "Hello, place any string in here to use this program. Make sure to have at least one word that appears more than once in the string."
 sentence = sentence.replace(".", "")
 sentence = sentence.replace(",", "")
 
-countsByWord = {}	# does NOT work as they are PKs -> Java equivalent to countsByWord.put("key", "value") is countsByWord["key"] = "value"
-
+countsByWord = {}	
 words = sentence.split() #make into dicionary
 
 # loop over all, loop over just the uniques
@@ -27,7 +26,7 @@ wordcounts.sort(reverse=True)
 
 # get users number input
 
-n = int(input("Enter in a number from 1 to 25: "))
+n = int(input("Enter in a number from 1 to 27: "))
 
 # Just grab the last n items 
 topitems = wordcounts[:n]
