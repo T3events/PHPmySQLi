@@ -6,4 +6,4 @@ It includes some catching, but I would also add input validation, security from 
 
 dependencies:  mysqli 
 
-***The wordcount file is a simple python program I wrote up, separate from the php/MySQLi files. 
+***The wordcount file is a simple python program I wrote up rather quickly, separate from the php/MySQLi files. 
