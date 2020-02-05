@@ -1,9 +1,7 @@
-This CRUD (minus delete) project: PHP with a MySQL database, LAMP stack from exercise directions (I did it through Docker in Windows).
+This very simple CRUD (minus delete) project: PHP with a MySQL database, LAMP stack from exercise directions (I did it through Docker in Windows).
 
-Included are all of the forms, logic, and permission check. It is assumed that it would be implemented into a test environment.
-
-It includes some catching, but I would also add input validation, security from SQLi, etc, if this were to be used in the real world.
+Included are all of the forms, logic, and permission check. It is assumed that it would be implemented into a compatible test environment or you could set up a phpMyAdmin project, import the .sql file, then open web file, (change any needed credentials (example: DB name and password) and launch in a  browser. 
 
 dependencies:  mysqli 
 
-***The wordcount file is a simple python program I wrote up rather quickly, separate from the php/MySQLi files. 
+***The wordcount file is a simple PYTHON program I wrote up rather quickly, separate from the php/MySQLi files. 
