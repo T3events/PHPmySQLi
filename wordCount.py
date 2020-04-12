@@ -24,10 +24,11 @@ for word in countsByWord:
 
 wordcounts.sort(reverse=True)
 
+#x = len(wordcounts)
 # get users number input
 
 n = int(input("Enter in a number from 1 to 27: "))
-
+#n = int(input("Enter in a number from 1 to" x ": "))
 # Just grab the last n items 
 topitems = wordcounts[:n]
 
